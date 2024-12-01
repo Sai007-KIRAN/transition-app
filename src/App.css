@@ -10,3 +10,79 @@
   flex-direction: row;
   margin-top: 20px;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Header Styling */
+.header {
+  height: 60px; /* Adjust as needed */
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main Content Styling */
+.main-content {
+  display: flex;
+  flex: 1; /* Take up remaining space below the header */
+}
+
+.sidebar {
+  width: 250px; /* Adjust width as needed */
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  overflow-y: auto; /* Add scrolling for long sidebars */
+}
+
+.main-section {
+  flex: 1; /* Take up remaining width */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tabs Styling */
+.tabs-container {
+  background-color: #fafafa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Content Area Styling */
+.content-area {
+  display: flex;
+  flex: 1; /* Take up remaining vertical space */
+  padding: 10px;
+  gap: 10px; /* Add spacing between sections */
+  overflow-y: auto; /* Add scroll for content overflow */
+}
+
+.customer-details,
+.conversation-section,
+.action-panel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Sections */
+.customer-details {
+  flex: 1;
+  max-width: 20%; /* Adjust as needed */
+}
+
+.conversation-section {
+  flex: 2;
+}
+
+.action-panel {
+  flex: 1;
+  max-width: 20%; /* Adjust as needed */
+}
