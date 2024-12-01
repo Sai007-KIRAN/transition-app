@@ -30,12 +30,14 @@ const ActionPanel = () => {
 
       <section className="action-launcher">
         <h2>Action Launcher</h2>
+        <div className='launcher-content'>
         <input type="text" placeholder="Search actions..." />
         <div className="actions">
-          <button>Add Action</button>
-          <button>Fee Reversal</button>
-          <button>Retail Onboarding</button>
-          <button>Address Update</button>
+          <div>Add Action</div>
+          <div>Fee Reversal</div>
+          <div>Retail Onboarding</div>
+          <div>Address Update</div>
+        </div>
         </div>
       </section>
 

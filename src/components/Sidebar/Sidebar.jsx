@@ -21,7 +21,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar-header">
         <img
-          src="https://via.placeholder.com/150x50" 
+          src="image.png" 
           alt="Risk Hawk Logo"
           className="logo"
         />
