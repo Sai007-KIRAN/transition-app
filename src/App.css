@@ -44,6 +44,8 @@
   flex: 1; /* Take up remaining width */
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  overflow: auto;
 }
 
 /* Tabs Styling */
@@ -63,7 +65,6 @@
 }
 
 .customer-details,
-.conversation-section,
 .action-panel {
   background-color: #fff;
   border: 1px solid #ddd;

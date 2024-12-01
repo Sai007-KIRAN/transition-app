@@ -25,7 +25,7 @@ const CustomerDetails = () => {
     <div className="profile-container">
       {/* Profile Header */}
       <div className="profile-header">
-        <div className="avatar">CB</div>
+        <div className="profile-avatar">CB</div>
         <div>
           <h2>{customerData.name}</h2>
           <p>{customerData.address}</p>
@@ -33,6 +33,7 @@ const CustomerDetails = () => {
       </div>
 
       {/* Details Sections */}
+      <div className="all-details">
       {customerData.details.map((detail, index) => (
         <div key={index} className="detail-section">
           <div className="detail-item">
@@ -43,8 +44,10 @@ const CustomerDetails = () => {
         </div>
       ))}
       <button className="add-button">+ Add</button>
+      </div>
 
       {/* Loyalty Tier Section */}
+      <div className="all-details">
       {customerData.loyalty.map((item, index) => (
         <div key={index} className="detail-section">
           <div className="detail-item">
@@ -55,8 +58,10 @@ const CustomerDetails = () => {
         </div>
       ))}
       <button className="add-button">+ Add</button>
+      </div>
 
       {/* Stats Section */}
+      <div className="all-details">
       {customerData.stats.map((stat, index) => (
         <div key={index} className="detail-section">
           <div className="detail-item">
@@ -70,6 +75,7 @@ const CustomerDetails = () => {
         </div>
       ))}
       <button className="add-button">+ Add</button>
+      </div>
 
       {/* Footer Buttons */}
       <button className="assign-button">Assign other Agent</button>

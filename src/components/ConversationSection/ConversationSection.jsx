@@ -52,7 +52,7 @@ const ConversationSection = () => {
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <h3>Conversation</h3>
+        <h3 className="selected">Conversation</h3>
         <h3>Attachment</h3>
       </div>
 
