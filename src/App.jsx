@@ -43,6 +43,7 @@ import ConversationSection from "./components/ConversationSection/ConversationSe
 import ActionPanel from "./components/ActionPanel/ActionPanel";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Header from "./components/Header/Header";
+import Escalate from "./components/Escalate/Escalate";
 import "./App.css";
 
 const App = () => {
@@ -63,8 +64,11 @@ const App = () => {
             {/* Customer Details */}
             <CustomerDetails />
 
-            {/* Conversation Section */}
+            
+            <div>
+            <Escalate />
             <ConversationSection />
+            </div>
 
             {/* Action Panel */}
             <ActionPanel />
