@@ -1,0 +1,12 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}

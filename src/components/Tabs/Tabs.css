@@ -1,0 +1,264 @@
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.contact-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  min-width: 100px;
+}
+
+.contact-item.active {
+  background-color: #eaf4ff;
+  transform: scale(1.05);
+  border-color: #007bff;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messaging-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.messaging-button:hover {
+  background-color: #0056b3;
+}
+
+.contact-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.contact-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.contact-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+} */
+
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  gap: 15px;
+}
+
+
+.contact-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 5px 0;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  padding: 8px; 
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.contact-item.active {
+  background-color: #eaf4ff;
+  border: 2px solid #007bff;
+  transform: scale(1.05);
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  background-color: #d9d9d9;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 12px; 
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.messaging-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px; 
+  padding: 8px 16px; 
+  font-size: 12px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.messaging-button:hover {
+  background-color: #0056b3;
+}
+
+.contact-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.contact-list::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 3px;
+}
+
+.contact-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+} */
+
+/* Container styles */
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  gap: 15px;
+}
+
+/* Contact list styles */
+.contact-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 5px 0;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.contact-item.active {
+  background-color: #eaf4ff;
+  border: 2px solid #007bff;
+  transform: scale(1.05);
+}
+
+/* Avatar styles */
+.avatar {
+  width: 35px;
+  height: 35px;
+  background-color: #d9d9d9;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+
+/* Name styles */
+.name {
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Messaging button styles */
+.messaging-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.messaging-button:hover {
+  background-color: #0056b3;
+}
+
+/* Scrollbar styles for the contact list */
+.contact-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.contact-list::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 3px;
+}
+
+.contact-list::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
